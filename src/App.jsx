@@ -81,7 +81,7 @@ const App = () => {
                 </div>
                 <div>
                   <label>
-                    <span>Empresa:</span>
+                    <span>Empresa/Endereço:</span>
                     <input
                       type="text"
                       id="nomeEmpresa"
