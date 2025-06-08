@@ -64,7 +64,7 @@ const App = () => {
       </header>
       <main>
         <section>
-          <h4 onClick={abrirFormulario}>MARCAR ENTREGAS</h4>
+          <h4 onClick={abrirFormulario}>CLIQUE PARA MARCAR AS ENTREGAS</h4>
           {formAberto && (
             <div>
               <form onSubmit={handleSalvar}>
@@ -136,7 +136,7 @@ const App = () => {
           )}
         </section>
         <section>
-          <h4 onClick={abrirLista}>VER ENTREGAS</h4>
+          <h4 onClick={abrirLista}>CLIQUE PARA VER AS ENTREGAS</h4>
           {listaAberta && (
             <div>
               {entregas.length === 0 ? (
@@ -162,7 +162,7 @@ const App = () => {
         </section>
       </main>
       <footer>
-        <h5>Santa Rita &copy; 2025</h5>
+        <h4>Santa Rita &copy; 2025</h4>
       </footer>
     </>
   );
